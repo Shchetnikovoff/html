@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Insbrug</title>
+</head>
+
+<body>
+    <header class="page-header container">
+        <img src="img/logo.svg" alt="logo" width="75" height="70">
+        <nav class="main-menu">
+            <ul class="main-menu-list">
+                <li><a href="#about">О городе</a></li>
+                <li><a href="#gallery">Галлерея</a></li>
+                <li><a href="#map">Карты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slogan">
+            <div class="container">
+                <h1>Открой для себя Инсбург</h1>
+            </div>
+        </div>
+        <article class="about container">
+            <h2>О городе</h2>
+            <section class="about-info">
+                <h3>Инсбург - один из луших горнолыжных курортов Австрии</h3>
+                <p>Сам город расположился в долине реки Инн, у самого подножья восточных Альп. Поэтому почти невозможно
+                    найти место в городе, чтобы не было видно гор.</p>
+            </section>
+            <div class="wrapper">
+                <section class="about-numbers">
+                    <ul class="about-numbers-list">
+                        <li>Население: чуть более 130тыс.человек</li>
+                        <li>Часовой пояс: UTC+1 Зимой UTC+2 Летом</li>
+                        <li>Зоны для катания: 9 штук, все связаны между собой транспортным сообщением</li>
+                        <li>Перепад высот: 860 метров - 3100 метров</li>
+                        <li>Продолжительность сезона: с 12 месяца(Декабрь) по 4 месяц (Апрель) включительно</li>
+                        <li>Возраст посетителей всех зон: с 2-х лет и старше, без ограничения</li>
+                    </ul>
+                </section>
+                <aside class="marketing">
+                    <p>Собрался на горнолыжный курорт?</p>
+                    <p>- не забудь купить снаряжение!</p>
+                    <a href="ski-racer.com">ski-racer.com</a>
+                </aside>
+            </div>
+
+            <section class="about-weather">
+                <h2>температура по месяцам</h2>
+                <figure class="about-weather-graph">
+                    <img src="img/about-weather-graph.png" width="1198" height="721" alt="Изменение температуры">
+                    <figcaption>Температура воздуха в Инсбурге днем и ночью, &deg;C</figcaption>
+                </figure>
+            </section>
+        </article>
+        <section class="gallery container">
+            <h2>Галлерея</h2>
+            <p>В прочем, кроме спусков на лыжах, здесь хватает удивительных мест</p>
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <h3>Императорский дворец</h3>
+                    <img src="img/howburg.jpg" alt="Императорский дворец">
+                </li>
+                <li class="gallery-item">
+                    <img src="img/hofgarten.jpg" alt="Парк Хофгартен">
+                    <h3>Парк Хофгартен</h3>
+                </li>
+                <li class="gallery-item">
+                    <h3>Замок Абрам</h3>
+                    <img src="img/ambrass.jpg" alt="Замок Амбрас">
+                </li>
+            </ul>
+        </section>
+        <section class="map container">
+            <h2>Инсбург на карте</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86607.33547332369!2d11.308750250339754!3d47.28543371353053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6ecfe1f8ca73%3A0x9d201c7d281d9b0d!2sInnsbruck%2C%20Austria!5e0!3m2!1sen!2sru!4v1683111987151!5m2!1sen!2sru"
+                width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Благодаря удобному расположению, добраться до сердца Альп не составляет особого труда</p>
+            <table class="transfer">
+                <thead>
+                    <tr>
+                        <th width="148">Вид траспорта</th>
+                        <th width="164">Из Москвы</th>
+                        <th width="159">Из Вены</th>
+                        <th width="167">Из Мюнхена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Самолет</td>
+                        <td>+</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Поезд</td>
+                        <td>+</td>
+                        <td>+</td>
+                        <td>+</td>
+                    </tr>
+                    <tr>
+                        <td>Автомобиль</td>
+                        <td>-</td>
+                        <td>+</td>
+                        <td>+</td>
+                    </tr>
+                    <tr>
+                        <td>Автобус</td>
+                        <td>-</td>
+                        <td>+</td>
+                        <td>+</td>
+                    </tr>
+                    <tr>
+                        <td>Иные способы</td>
+                        <td>-</td>
+                        <td>Трансфер на заказ</td>
+                        <td>Трансфер на заказ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <div class="footer-wrapper">
+        <footer class="page-footer container">
+            <p class="hashtag">#visitInssbruck</p>
+            <ul class="footer-social">
+                <li><a href="#" class="social-button"><img src="img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#" class="social-button"><img src="img/fb.svg" alt="facebook"></a></li>
+                <li><a href="#" class="social-button"><img src="img/youtube.svg" alt="youtube"></a></li>
+            </ul>
+            <p class="copyright">&copy; 2023 FoxArt</p>
+
+        </footer>
+    </div>
+</body>
+
+</html>

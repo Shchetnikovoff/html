@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.main-menu {
+  flex-grow: 1;
+}
+
+.main-menu-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu-list a {
+  font-size: 30px;
+  line-height: 41px;
+  color: #2a3d8f;
+}
+
+.main-menu-list a:hover {
+  color: #3893cc;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px 0;
+  color: black;
+}
+
+.hashtag {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-social {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.copyright {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.social-button {
+  margin: 0 10px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  background-color: #b5d4c5;
+}
+
+h2 {
+  color: #2a3d8f;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.slogan {
+  height: 558px;
+  background-image: url(img/insburg.png);
+  background-color: #dbe8f7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slogan h1 {
+  margin: 0;
+  padding-top: 200px;
+  font-size: 60px;
+  line-height: 82px;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-numbers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.about-numbers-list li::before {
+  content: "✓";
+  margin-right: 3px;
+}
+
+.marketing {
+  display: flex;
+  flex-direction: column;
+  background-image: url(img/skier.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  width: 30%;
+}
+
+.marketing p {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px;
+  font-size: 2vw;
+  line-height: 33px;
+}
+
+.marketing a {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 60px;
+  padding: 5px 10px;
+  background-color: #fff;
+  opacity: 0.7;
+  align-self: flex-end;
+  color: #000;
+}
+
+.about-weather-graph {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.about-weather-graph figcaption {
+  font-size: 22px;
+  line-height: 33px;
+  background-color: rgb(124, 124, 124);
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.gallery-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  align-items: center;
+  min-height: 256px;
+  text-align: center;
+  color: #fff;
+  background-color: #b5d4c5;
+}
+
+.gallery-item h3 {
+  text-transform: uppercase;
+  padding: 45px 59px 60px 59px;
+  width: 400px;
+}
+
+.transfer {
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.transfer thead {
+  background-color: rgb(32, 46, 92);
+  color: #fff;
+}
+
+.transfer td,
+th {
+  border: 1px solid #333;
+  padding: 5px;
+  text-align: center;
+}
