@@ -95,7 +95,7 @@ h3 {
 
 .slogan {
   height: 558px;
-  background-image: url(img/insburg.png);
+  background-image: url(insburg.png);
   background-color: #dbe8f7;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +129,7 @@ h3 {
 .marketing {
   display: flex;
   flex-direction: column;
-  background-image: url(img/skier.png);
+  background-image: url(skier.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
